@@ -5,7 +5,7 @@ To run training in EC2:
 File Structure:  
     data  (Downlaod data from roboflow here)
     w251_final (this repo)  
-    yolov5 (ultralitics yolov5 repo)  
+    yolov5 (ultralitics yolov5 repo: https://github.com/ultralytics/yolov5)  
   
 Run the ec2_training_script.ipynb file within this repo. Relative paths may need to be modified to point to the train.py file in the yolov5 repo and to the data in the data directory.
 
