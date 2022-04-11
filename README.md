@@ -3,7 +3,7 @@
 To run training in EC2:
 
 File Structure:  
-    data  
+    data  (Downlaod data from roboflow here)
     w251_final (this repo)  
     yolov5 (ultralitics yolov5 repo)  
   
