@@ -21,3 +21,5 @@ yolov5 (ultralitics yolov5 repo: https://github.com/ultralytics/yolov5)
 
 Run the train.py file. Be sure to include your aws ACCESS_KEY and ACCESS_SECRET, as well as updating the s3 buckt name you want to save your files. 
 The train.py file will evaluate on a video, file containing images, or vide stream from a web camera, this can be adjusted by changing the source argument in the run_detection function within the train.py script. This script can be run on a local device, cloud enviornment, or jetson device.
+
+The Dockerfile in this container is a recommended envionrment to use for training and evaluation, though similar enviornments with the appropriate dependencies will also work.
